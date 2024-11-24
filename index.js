@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const bodyParser = require("body-parser");
 
-const controllers = require("../backend/controllers/quotes")
+const controllers = require("../backend/src/controllers/quotes")
 
 const app = express();
 
